@@ -13,7 +13,8 @@
     <input type="date" name="data">
 
           <label>Horario: </label>
-        <input type="text" name="nome">
+        <input type="time" name="horario">
+        <input type="submit" value="Reservar">
        
     </form>
 </body>
