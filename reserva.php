@@ -8,24 +8,18 @@
 </head>
 <body>
     <form method="post">
-        <label>Data de Entrada: </label>
-        <input type="number" name="data">
+  <label><h3>Previsão de Entrada: </h3></label>
+   <label for="data">Data: </label>
+    <input type="date" name="data">
 
-          <label>Data de Saida: </label>
-        <input type="number" name="data">
-
-          <label>Nome do Hospede: </label>
+          <label>Horario: </label>
         <input type="text" name="nome">
-
-          <label>Ocupação: </label>
-        <input type="number" name="numero">
+       
     </form>
 </body>
 </html>
 
     <?php
-    $datadeentrada;
-    $datadesaida;
-    $nomedoshospedes;
-    $ocupação;
+    $horario;
+    $previsaodeentrada;
     ?>
